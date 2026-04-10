@@ -1,10 +1,8 @@
 import os
 import streamlit as st
 import requests
-from dotenv import load_dotenv
 from utils import init_session_state
 
-load_dotenv()  # Load environment variables from .env file
 API_KEY = os.getenv("DEEPSEEK_API_KEY")
 
 st.title("Ask the Tutor")
